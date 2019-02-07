@@ -68,7 +68,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Color"/>
                                 <connections>
-                                    <action selector="changeColorButtonPressed:" destination="sP9-GQ-zbZ" eventType="touchUpInside" id="7LO-FQ-NGL"/>
+                                    <action selector="changeColorButtonPressed:" destination="sP9-GQ-zbZ" eventType="touchUpInside" id="x6a-Yg-k8k"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -76,7 +76,6 @@
                         <viewLayoutGuide key="safeArea" id="grq-Id-2xi"/>
                     </view>
                     <connections>
-                        <outlet property="changeColorButtonPressed" destination="vgM-OY-rMC" id="EFn-OF-zkM"/>
                         <outlet property="firstLabel" destination="Lta-oB-TKD" id="Okz-PH-Zye"/>
                     </connections>
                 </viewController>

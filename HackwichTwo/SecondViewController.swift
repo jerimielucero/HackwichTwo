@@ -14,20 +14,21 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-         firstLabel.text = "I did it"
-    }
     
 
-        //on button press, we want the background color  of view to turn blue
-    
-    @IBAction func changeColorButtonPressed(_ sender: Any) {
-        
-        self.view.backgroundColor=UIColor.blue
+    //on button press, we want the background color  of view to turn blue
     }
     //on button press, set firstLabel to the string, "I did it"
         //hint 1: look up "UI Label"
-        //hint 2: look up attributes of UI Label
+    @IBAction func changeColorButtonPressed(_ sender: Any) {
+        
+        self.view.backgroundColor=UIColor.blue
+        
+        firstLabel.text = "I did it"
+        
+    }
+    //hint 2: look up attributes of UI Label
+    
     }
 
 
